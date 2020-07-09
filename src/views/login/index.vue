@@ -52,12 +52,12 @@
         </el-col>
       </el-row>
       <!--<el-row>-->
-        <!--<el-col :span="24">-->
-          <!--<div class="grid-content">-->
+      <!--<el-col :span="24">-->
+      <!--<div class="grid-content">-->
 
-            <!--<span style="position: fixed;position: absolute;">注册新用户</span>-->
-          <!--</div>-->
-        <!--</el-col>-->
+      <!--<span style="position: fixed;position: absolute;">注册新用户</span>-->
+      <!--</div>-->
+      <!--</el-col>-->
       <!--</el-row>-->
     </el-form>
   </div>
@@ -157,8 +157,8 @@ export default {
         }
       })
     },
-    GotoRegister(){
-      this.$router.push({ path:'/register' })
+    GotoRegister() {
+      this.$router.push({ path: '/register' })
     },
     getOtherQuery(query) {
       return Object.keys(query).reduce((acc, cur) => {

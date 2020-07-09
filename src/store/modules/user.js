@@ -1,4 +1,4 @@
-import { login, logout, getInfo,register } from '@/api/user'
+import { login, logout, getInfo, register } from '@/api/user'
 import { getToken, setToken, removeToken } from '@/utils/auth'
 import router, { resetRouter } from '@/router'
 
@@ -48,7 +48,7 @@ const actions = {
     const { account, pwd } = form
     return new Promise((resolve, reject) => {
       register({ account: account.trim(), pwd: pwd }).then(response => {
-        let token = 'mock_token'
+        const token = 'mock_token'
         commit('SET_TOKEN', token)
         setToken(token)
         resolve()
