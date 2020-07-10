@@ -69,10 +69,10 @@ export default {
 </script>
 
 <style scoped>
-.message-title {
-  font-size: 16px;
-  color: #333;
-  font-weight: bold;
-  padding-right: 8px;
-}
+  .message-title {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    padding-right: 8px;
+  }
 </style>

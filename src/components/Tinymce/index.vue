@@ -9,9 +9,9 @@
 
 <script>
 /**
- * docs:
- * https://panjiachen.github.io/vue-element-admin-site/feature/component/rich-editor.html#tinymce
- */
+   * docs:
+   * https://panjiachen.github.io/vue-element-admin-site/feature/component/rich-editor.html#tinymce
+   */
 import editorImage from './components/EditorImage'
 import plugins from './plugins'
 import toolbar from './toolbar'
@@ -211,37 +211,37 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.tinymce-container {
-  position: relative;
-  line-height: normal;
-}
+  .tinymce-container {
+    position: relative;
+    line-height: normal;
+  }
 
-.tinymce-container {
-  ::v-deep {
-    .mce-fullscreen {
-      z-index: 10000;
+  .tinymce-container {
+    ::v-deep {
+      .mce-fullscreen {
+        z-index: 10000;
+      }
     }
   }
-}
 
-.tinymce-textarea {
-  visibility: hidden;
-  z-index: -1;
-}
+  .tinymce-textarea {
+    visibility: hidden;
+    z-index: -1;
+  }
 
-.editor-custom-btn-container {
-  position: absolute;
-  right: 4px;
-  top: 4px;
-  /*z-index: 2005;*/
-}
+  .editor-custom-btn-container {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    /*z-index: 2005;*/
+  }
 
-.fullscreen .editor-custom-btn-container {
-  z-index: 10000;
-  position: fixed;
-}
+  .fullscreen .editor-custom-btn-container {
+    z-index: 10000;
+    position: fixed;
+  }
 
-.editor-upload-btn {
-  display: inline-block;
-}
+  .editor-upload-btn {
+    display: inline-block;
+  }
 </style>
